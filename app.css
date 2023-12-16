@@ -2,6 +2,9 @@ h1 {
 	color : red;
 }
 
-h2 {
+p {
 	color : white;
 }
+
+/* The code changes the color for things like header 1.
+This code above isn't needed but I'm putting it here so I know what it is for now*/
