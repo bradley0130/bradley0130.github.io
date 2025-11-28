@@ -8,3 +8,37 @@ p {
 
 /* The code changes the color for things like header 1.
 This code above isn't needed but I'm putting it here so I know what it is for now*/
+
+/* Background and page defaults (fix background sizing and viewport fitting) */
+html, body {
+	height: 100%;
+	margin: 0; /* remove default body margin so background touches edges */
+}
+
+body {
+	background-image: url('Images/WorkingOnMainPage.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain; 
+	background-size: 100% 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation bar styling */
+.navbar {
+    overflow: hidden;
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+	
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: cornflowerblue;
+}
