@@ -1,18 +1,8 @@
-h1 {
-	color : red;
-}
-
-p {
-	color : white;
-}
-
-/* The code changes the color for things like header 1.
-This code above isn't needed but I'm putting it here so I know what it is for now*/
-
 /* Background and page defaults (fix background sizing and viewport fitting) */
 html, body {
 	height: 100%;
 	margin: 0; /* remove default body margin so background touches edges */
+    padding: 0;
 }
 
 body {
@@ -25,12 +15,19 @@ body {
 }
 
 /* Navigation bar styling */
-.navbar {
+header {
     overflow: hidden;
     background-color: dodgerblue;
     font-family: Arial, Helvetica, sans-serif;
 }
-.navbar a {
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
     float: left;
     font-size: 20px;
     color: white;
@@ -39,6 +36,6 @@ body {
     text-decoration: none;
 }
 	
-.navbar a:hover, .dropdown:hover .dropbtn {
+header a:hover{
     background-color: cornflowerblue;
 }
