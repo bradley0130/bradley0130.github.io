@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-	background-image: url('Images/WorkingOnMainPage.png');
+	/*background-image: url('Images/WorkingOnMainPage.png');*/
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain; 
@@ -39,3 +39,11 @@ header a {
 header a:hover{
     background-color: cornflowerblue;
 }
+
+section {
+    color: white;
+}
+
+section p {
+        padding-left: 15px;  
+    }
